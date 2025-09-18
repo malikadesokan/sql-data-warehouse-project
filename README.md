@@ -5,3 +5,7 @@ This is my first attempt at creating a Data Warehouse using the YouTube video fr
 Below is the Architecture of the Data Warehouse
 ![Data Architecture](https://github.com/user-attachments/assets/e9317d07-c451-41a6-b82d-8b72da232202)
 
+**🚀Project Requirement**
+****Building the Data Warehouse (Data Engineering)****
+******Objective******
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
