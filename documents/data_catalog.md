@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The Gold Layer represents business-level data, structured to support analytical and reporting use cases. It consists of dimension tables and fact tables for specific business metrics
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**---------------------------------------------------------------------------------------------------------------------------------------------------**
 
 ******1. gold.dim_customers******
 
@@ -27,7 +27,7 @@ The Gold Layer represents business-level data, structured to support analytical 
 | birthdate       | DATE          | The date of birth of the customer, formatted as YYYY-MM-DD (e.g. 1972-09-27).   |
 | create_date     | DATE          | The date and time when the customer record was created in the system.           |
 
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**---------------------------------------------------------------------------------------------------------------------------------------------------**
 
 ******2. gold.dim_products******
    
@@ -49,7 +49,7 @@ The Gold Layer represents business-level data, structured to support analytical 
 | product_line   | NVARCHAR(50)| The specific product line or series to which the product belongs (e.g. Road, Mountain).              |
 | start_date     | DATE        | The date when the product became available for sale or use, stored in the system.                   |
 
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**---------------------------------------------------------------------------------------------------------------------------------------------------**
 
 
 ******3. gold.fact_sales******
